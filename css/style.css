@@ -1,0 +1,181 @@
+/*Estilos para los navegadores*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SourceSansPro';
+    font-size: 20px;
+}
+
+/*Fin estilos para los navegadores*/
+
+/*Estilos de las fuentes*/
+@font-face {
+    font-family: SourceSansPro;
+    src: url(../fonts/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: Peenu;
+    src: url(../fonts/Peenu.ttf);
+}
+
+/*Fin estilos de las fuentes*/
+
+/*Estilos de la barra de desplazamiento*/
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #004445;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #52de97;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.5, transparent), to(transparent));
+}
+
+/*Fin estilos de la barra de desplazamiento*/
+
+/*Estilos del logo*/
+.logo {
+    height: 50px;
+    margin-top: 5px;
+}
+
+.brand-logo {
+    font-family: Peenu;
+    font-size: 20px !important;
+}
+
+/*Fin estilos del logo*/
+
+/*Estilos de la barra de menú*/
+.navbar {
+    background-color: #018383;
+    height: 70px;
+}
+
+.menu-item {
+    font-size: 20px;
+    line-height: 70px;
+    font-weight: bold;
+}
+
+.iconos-menu {
+    margin-right: 5px;
+}
+
+/*Fin estilos de la barra de menú*/
+
+/*Estilos del sidenav*/
+.bg-sidenav:hover {
+    background-color: #018383;
+    color: #ffffff;
+}
+
+.c-sidenav:hover {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.sidenav {
+    background-color: #ffffff;
+}
+
+.background {
+    background-color: #018383;
+}
+
+.logo-sidenav1 {
+    text-align: center;
+}
+
+.logo-sidenav2 {
+    height: 50px;
+}
+
+/*Fin estilos del sidenav*/
+
+/*Estilos de los párrafos del parallax*/
+.parallax-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parrafo2 {
+    font-weight: bold;
+}
+
+/*Fin estilos de los párrafos del parallax*/
+
+/*Estilo de los subtítulos*/
+.subtitulo {
+    font-weight: bold;
+}
+
+/*Fin estilos de los subtítulos*/
+
+/*Estilos de la sección servicios*/
+.servicios {
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.card-title {
+    font-weight: bold !important;
+}
+
+/*Fin estilos de la sección servicios*/
+
+/*Estilos de la sección de galería*/
+.parrafo1 {
+    margin-bottom: 10px;
+
+}
+
+.imagenes {
+    margin-bottom: 10px;
+}
+
+/*Fin estilos de la sección de galería*/
+
+/*Estilos de la sección contacto*/
+.nombre-redes {
+    margin-bottom: 10px;
+}
+
+.img-redes {
+    height: 80px;
+    width: 80px;
+}
+
+/*Fin estilos de la sección contacto*/
+
+/*Estilos del botón subir*/
+.subir {
+    display: none;
+    background: #52de97;
+    padding: 15px;
+    font-size: 25px;
+    color: #ffffff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50px;
+    z-index: 1000;
+}
+
+/*Fin estilos del botón subir*/
+
+/*Estilos del pie de página*/
+.color-footer {
+    background-color: #018383 !important;
+}
+
+/*Fin estilos del pie de página*/
